@@ -1,0 +1,5 @@
+AEGISS_ixyt             ID numbers and space-time locations.
+AEGISS_poly             Vertices of a 120-sided polygon.
+FSS                     Perform forward selection scan statistic
+RecurPart-package       Forward Selection Scan (FSS) Statistic
+plotFSS                 Plot FSS analysis results

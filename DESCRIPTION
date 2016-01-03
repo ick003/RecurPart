@@ -1,0 +1,13 @@
+Package: RecurPart
+Title: Forward Selection Scan Statistic
+Description: Spatio-Temporal Disease Surveillance using Forward Selection Scan
+    Statistic
+Version: 0.1
+Author: Adrien Ickowicz <Adrien.Ickowicz@csiro.au>,
+    Ross Sparks <Ross.Sparks@csiro.au>,
+    Thomas Lo <Thomas.Lo@csiro.au>
+Maintainer: Adrien Ickowicz <Adrien.Ickowicz@csiro.au>
+Depends: R (>= 3.1.0)
+License: GPL-2
+LazyData: true
+Built: R 3.1.0; ; 2014-08-21 02:26:09 UTC; windows

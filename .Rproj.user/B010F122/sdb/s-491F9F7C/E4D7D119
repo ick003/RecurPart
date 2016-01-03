@@ -1,0 +1,17 @@
+{
+    "contents" : "#  File share/R/nspackloader.R\n#  Part of the R package, http://www.R-project.org\n#\n#  Copyright (C) 1995-2012 The R Core Team\n#\n#  This program is free software; you can redistribute it and/or modify\n#  it under the terms of the GNU General Public License as published by\n#  the Free Software Foundation; either version 2 of the License, or\n#  (at your option) any later version.\n#\n#  This program is distributed in the hope that it will be useful,\n#  but WITHOUT ANY WARRANTY; without even the implied warranty of\n#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n#  GNU General Public License for more details.\n#\n#  A copy of the GNU General Public License is available at\n#  http://www.r-project.org/Licenses/\n\nlocal({\n    info <- loadingNamespaceInfo()\n    pkg <- info$pkgname\n    ns <- .getNamespace(as.name(pkg))\n    if (is.null(ns))\n        stop(\"cannot find namespace environment for \", pkg, domain = NA);\n    dbbase <- file.path(info$libname, pkg, \"R\", pkg)\n    lazyLoad(dbbase, ns, filter = function(n) n != \".__NAMESPACE__.\")\n})\n",
+    "created" : 1451863670814.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3549615447",
+    "id" : "E4D7D119",
+    "lastKnownWriteTime" : 1408587970,
+    "path" : "~/Documents/Donnees/Code/Package/R-package-RecurPart/RecurPart/R/RecurPart",
+    "project_path" : "R/RecurPart",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "text"
+}
