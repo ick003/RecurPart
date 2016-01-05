@@ -1,13 +1,26 @@
 \name{FSS}
 \alias{FSS}
+\alias{FSS.default}
 
 \title{Forward Scan Statistic}
 \description{Perform a forward scan statistic analysis.}
 
 \usage{
-FSS(...)
+FSS(data_xyt, num1Slice, num1Period, numPeriods, numX,
+                 numY, plotIte = 6, cellIndices = NULL, data_poly =
+                 NULL, maxSum = 3, tempSmooth = TRUE, spatSmooth =
+                 TRUE, alpha = 0.7, lambda = 0.8, num1Day = 1,
+                 dspSlices = NULL, fillThreshold = 1, colPoints =
+                 "green", colA = "red", colB = "orange", colP =
+                 "green")
 
-\method{FSS}{default}(data_xyt,...)
+\method{FSS}{default}(data_xyt, num1Slice, num1Period, numPeriods, numX,
+                 numY, plotIte = 6, cellIndices = NULL, data_poly =
+                 NULL, maxSum = 3, tempSmooth = TRUE, spatSmooth =
+                 TRUE, alpha = 0.7, lambda = 0.8, num1Day = 1,
+                 dspSlices = NULL, fillThreshold = 1, colPoints =
+                 "green", colA = "red", colB = "orange", colP =
+                 "green")
 }
 
 \arguments{

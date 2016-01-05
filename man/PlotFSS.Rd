@@ -1,13 +1,14 @@
-\name{PlotFSS}
-\alias{PlotFSS}
+\name{plotFSS}
+\alias{plotFSS}
+\alias{plotFSS.default}
 
-\title{PlotFSS}
+\title{plotFSS}
 \description{Plotting method for FSS}
 
 \usage{
-  PlotFSS(fssObj...)
+  plotFSS(fssObj,...)
   
-  \method{FSS}{default}(fssObj,...)
+  \method{plotFSS}{default}(fssObj,...)
 }
 
 \arguments{
@@ -17,6 +18,7 @@
   \item{dspSlices}{ selecting slices to display for outbreak overview.}
   \item{titles}{ character string.}
   \item{pause}{ logical. Whether or not pause between each plot.}
+  \item{...}{ Additional parameters}
 }
 
 \value{
